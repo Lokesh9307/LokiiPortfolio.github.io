@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header{
+    position: absolute;
+    text-align: center;
+    margin-left: 550px;
+    font-size: 35px;
+    padding: 10px 50px;
+    border: 1px solid transparent;
+    box-shadow: 4px 4px 16px  rgb(125, 125, 125);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgba(140, 135, 135, 0.823);
+    /* width: 15%; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.4s ease-in;
+}
+
+.sidebar nav {
+    padding: 40px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+    padding-right:10px;
+    
+}
+
+.sidebar nav li:hover{
+    background-color: rgb(100, 96, 96);
+    font-weight:300;
+}
+.sidebar nav li a:hover{
+    color: aliceblue;
+}
+
+.sidebar nav  a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    margin-left: 200px;
+    width: 90%;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(30, 255, 0); */
+    height: 65vh;
+    width: 80vw;
+    margin: 135px auto;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.devPic img {
+    height: 60vh;
+    width: 450px;
+    display: flex;
+    border-radius: 80%;
+    right: 50px;
+
+   
+}
+
+.hello {
+    font-size: 78px;
+
+}
+
+.name {
+    font-size: 60px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.aboutMore {
+    font-size: 28px;
+
+}
+
+.buttons button {
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 27px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    background-color: black;
+    opacity: .8;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: black;
+    background-color: rgba(177, 177, 177, 0.833);
+    opacity: 5;
+    font-weight: bolder;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 12px;
+    left: 10px;
+}
+.cross{
+    margin-left: 185px;
+}
+ffffffffffffffffffffff
+/* contact.html */
+
+.mainCo {
+    width: 85%;
+    margin-left: 800px;
+    margin-top: -300px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contactForm {
+    padding: 0 34px;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 75px 100px;
+    font-weight: bolder;
+    margin-left: 500px;
+}
+
+.contactForm h1 {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    padding: 20px 0px;
+}
+
+.contactForm div {
+    padding: 8px 0;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    border: 1px solid transparent;
+    padding: 12px;
+    box-shadow: 2px 2px 18px grey;
+    border-radius: 10px;
+}
+
+#emailHelp {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+}
+
+#passHelp {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+.form-control {
+    padding: 7px;
+    font-size: 23px;
+    width: 60vh;
+    border-radius: 5px;
+}
+
+.btn {
+    font-size: 22px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: rgb(206, 199, 199);
+}
+
+.btn:hover {
+    background-color: rgba(19, 88, 19, 0.853);
+    color: white;
+}
+
+
+.textEnquiry {
+    width: 450px;
+    /* height: ; */
+    border-radius: 5px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+/* Blog.html */
+.blogItem {
+    margin: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 15px;
+}
+
+.blogContainer h1 {
+    font-family: 'Rajdhani', sans-serif;
+    margin: 25px;
+}
+
+.blogitem p {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.blogBtn {
+    padding: 6px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to right, white, rgb(212, 212, 212));
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    cursor: pointer;
+}
+
+.blogBtn:hover {
+    background-image: linear-gradient(to bottom right, white, rgb(7, 207, 47));
+    color: white;
+}
+
+button {
+    margin-top: 8px;
+}
+
+/* Intro.html */
+.intro{
+    padding-left: 20px;
+}
+
+#introPic{
+    float: right;
+    border-radius: 50%;
+    margin-right: 800px;
+    margin-top: -30px;
+    box-shadow: 2px 2px 8px 8px rgb(189, 183, 183);
+}
+.intro h1 {
+    font-family: 'Rajdhani', sans-serif;
+    margin: 12px;
+
+}
+
+.intro p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin: 12px;
+}
+
+.SkillContainer {
+    padding: 12px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-weight: bolder;
+
+
+}
+
+.skill {
+    height: 11px;
+}
+
+.perSkill {
+    margin-left: 200px;
+    word-spacing: 80px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#pyico {
+    position: absolute;
+    margin-left: -60px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 12px;
+    width: 30%;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.ProList {
+    padding: 17px;
+    font-size: 25px;
+}
+
+.webpro {
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20px;
+    height: 530px;
+    width: 500px;
+    float: right;
+    margin-top: -545px;
+    margin-right: 200px;
+}
+
+#webico {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+.webpro h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.weblist {
+    padding: 17px;
+    font-size: 25px;  
+}
+
+.weblist1{
+    text-align: center;
+    padding: 20px;
+}
+
+#social{
+    margin: 12px;
+    font-family: 'Rajdhani', sans-serif;
+    padding-left: 20px;
+}
+.socialMedia{
+    word-spacing: 200px;
+    margin-left: 140px;
+    padding: 20px;
+}
+.socialMedia a{
+    text-decoration: none;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 8px grey;
+    padding: 0px 16px;
+    padding-top: 40px;
+    border-radius: 25px;
+}
+
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+
+
+@media (max-width:1320px){
+    *{
+        
+    }
+    .header{
+        padding: 10px;
+        font-size: 23px;
+        /* display: none; */
+    }
+}
+
+@media (max-width:900px){
+    *{
+        font-size: 20px;
+    }
+    .main{
+        padding: 8px;
+        font-size: 15px;
+        height: 800px;
+        margin-left:130px;
+    }
+    .header{
+        display: none;
+    }
+}
+
+@media(max-width:500) and (min-width:800){
+    .devPic{
+        display: none;
+    }
+}
